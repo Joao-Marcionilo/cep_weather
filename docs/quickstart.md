@@ -4,7 +4,7 @@ Package to fetch data from an CEP API and scrape weather of a capital in Brazil
 
 ## Fetch CEP
 
-**Function:** `cep_weather.get_data(cep:str)`
+**Function:** `get_data(cep:str)`
 
 Fetch a capital's data from the API https://viacep.com.br/
 
@@ -20,9 +20,9 @@ print(data)
 
 ### Parameters
 
-| Parameter | Type | Description |
-| --------- | ---- | ----------- |
-| `cep` | `str` | To be searched |
+| Parameter | Type  | Description    |
+|-----------|-------|----------------|
+| `cep`     | `str` | To be searched |
 
 
 
@@ -31,7 +31,7 @@ print(data)
 
 ## Fetch Capital
 
-**Function:** `cep_weather.get_capital(cep:str)`
+**Function:** `get_capital(cep:str)`
 
 Try to find the capital of a given CEP with the API https://viacep.com.br/
 
@@ -47,9 +47,9 @@ print(capital)
 
 ### Parameters
 
-| Parameter | Type | Description |
-| --------- | ---- | ----------- |
-| `cep` | `str` | To be searched |
+| Parameter | Type  | Description    |
+|-----------|-------|----------------|
+| `cep`     | `str` | To be searched |
 
 
 
@@ -58,7 +58,7 @@ print(capital)
 
 ## Fetch Weather Forecast
 
-**Function:** `cep_weather.get_capital_weather(capital:str, existing_capitals=True)`
+**Function:** `get_capital_weather(capital:str, existing_capitals=True)`
 
 Scrape for the weather of a capital in https://previsao.inmet.gov.br/
 
@@ -74,12 +74,11 @@ print(weather)
 
 ### Parameters
 
-| Parameter | Type | Description |
-| --------- | ---- | ----------- |
-| `capital` | `str` | To be searched |
+| Parameter           | Type   | Description                                               |
+|---------------------|--------|-----------------------------------------------------------|
+| `capital`           | `str`  | To be searched                                            |
 | `existing_capitals` | `bool` | True will raise an ValueError case the capital is invalid |
 
 
 
 ### Return type: `str`
-    

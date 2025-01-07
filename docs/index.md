@@ -12,5 +12,5 @@ py -m pip install joao_marcionilo_cep_weather
 
 ## See also
 
-- [Quickstart](/quickstart)
-- [Testing with local API](/server)
+- [Quickstart](quickstart)
+- [Testing with local API](server)
