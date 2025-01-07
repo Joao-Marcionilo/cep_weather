@@ -6,10 +6,10 @@ build-backend = "hatchling.build"
 name = "joao_marcionilo_cep_weather"
 version = "0.1.0"
 description = "Package to fetch data from an CEP API and scrape weather of a capital in Brazil"
-readme = "READMETESTPYPI.md"
+readme = "README.md"
 requires-python = ">=3.12"
 authors = [
-  { name="João Marcionilo", email="marcionilojob@gmail.com" },
+  { name="JoÃ£o Marcionilo", email="marcionilojob@gmail.com" },
 ]
 dependencies = [
     "selenium~=4.26.1",
@@ -24,4 +24,4 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Joao-Marcionilo/cep-weather"
+Homepage = "https://github.com/Joao-Marcionilo/cep_weather"

@@ -68,7 +68,7 @@ Scrape for the weather of a capital in https://previsao.inmet.gov.br/
 ```
 from joao_marcionilo_cep_weather import get_capital_weather
 
-weather = get_capital_weather("São Paulo")
+weather = get_capital_weather("SÃ£o Paulo")
 print(weather)
 ```
 
